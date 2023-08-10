@@ -42,7 +42,7 @@ const ContentDetails = () => {
         <div className="product__count">
           <div className="decrement">
             <img
-              src="/images/icon-minus.svg"
+              src="images/icon-minus.svg"
               alt="decrement"
               onClick={decrementHandler}
             />
@@ -50,7 +50,7 @@ const ContentDetails = () => {
           <h4>{itemCount}</h4>
           <div className="increment">
             <img
-              src="/images/icon-plus.svg"
+              src="images/icon-plus.svg"
               alt="increment"
               onClick={incrementHandler}
             />

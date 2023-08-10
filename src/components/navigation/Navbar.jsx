@@ -25,12 +25,12 @@ const Navbar = () => {
       if (menu) {
         document.querySelector(".navbar__overlay").style.display = "flex";
         document.querySelector(".navbar__icon img").src =
-          "/images/icon-close.svg";
+          "images/icon-close.svg";
         document.querySelector(".overlay").style.display = "block";
       } else {
         document.querySelector(".navbar__overlay").style.display = "none";
         document.querySelector(".navbar__icon img").src =
-          "/images/icon-menu.svg";
+          "images/icon-menu.svg";
         document.querySelector(".overlay").style.display = "none";
       }
     }, [menu]);
@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="navbar__left">
           <div className="navbar__icon">
             <img
-              src="/images/icon-menu.svg"
+              src="images/icon-menu.svg"
               alt="menu icon"
               onClick={menuHandler}
             />
@@ -82,7 +82,7 @@ const Navbar = () => {
             </svg>
           </div>
           <div className="avatar__icon">
-            <img src="/images/image-avatar.png" alt="avatar" />
+            <img src="images/image-avatar.png" alt="avatar" />
           </div>
         </div>
       </section>
@@ -151,7 +151,7 @@ const Navbar = () => {
               <div className="desktop__cart__content__details">
                 <div className="desktop__image1">
                   <img
-                    src="/images/image-product-1-thumbnail.jpg"
+                    src="images/image-product-1-thumbnail.jpg"
                     alt="thumbnail"
                   />
                 </div>
@@ -164,7 +164,7 @@ const Navbar = () => {
                 </div>
                 <div className="desktop__image2">
                   <img
-                    src="/images/icon-delete.svg"
+                    src="images/icon-delete.svg"
                     alt="delete"
                     onClick={() => setNoOfItems(0)}
                   />
@@ -186,7 +186,7 @@ const Navbar = () => {
             </svg>
           </div>
           <div className="desktop__avatar">
-            <img src="/images/image-avatar.png" alt="avatar" />
+            <img src="images/image-avatar.png" alt="avatar" />
           </div>
         </div>
       </section>

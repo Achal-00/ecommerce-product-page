@@ -4,10 +4,10 @@ import { ItemContext } from "../App";
 const width = screen.width;
 
 const imageURL = [
-  "/images/image-product-1.jpg",
-  "/images/image-product-2.jpg",
-  "/images/image-product-3.jpg",
-  "/images/image-product-4.jpg",
+  "images/image-product-1.jpg",
+  "images/image-product-2.jpg",
+  "images/image-product-3.jpg",
+  "images/image-product-4.jpg",
 ];
 
 const ImageContainer = () => {
@@ -61,7 +61,7 @@ const ImageContainer = () => {
             <div className="cart__content__details">
               <div className="img1">
                 <img
-                  src="/images/image-product-1-thumbnail.jpg"
+                  src="images/image-product-1-thumbnail.jpg"
                   alt="thumbnail"
                 />
               </div>
@@ -73,7 +73,7 @@ const ImageContainer = () => {
               </div>
               <div className="img2">
                 <img
-                  src="/images/icon-delete.svg"
+                  src="images/icon-delete.svg"
                   alt="delete"
                   onClick={deleteHandler}
                 />
@@ -85,20 +85,20 @@ const ImageContainer = () => {
           </div>
         </section>
         <img
-          src="/images/image-product-1.jpg"
+          src="images/image-product-1.jpg"
           alt="product image"
           className="product"
         />
         <div className="common-navigate">
           <img
-            src="/images/icon-previous.svg"
+            src="images/icon-previous.svg"
             alt="previous"
             onClick={prevHandler}
           />
         </div>
         <div className="common-navigate">
           <img
-            src="/images/icon-next.svg"
+            src="images/icon-next.svg"
             alt="previous"
             onClick={nextHandler}
           />
@@ -176,17 +176,17 @@ const ImageContainer = () => {
               />
             </svg>
             <div className="desktop__overlay__image">
-              <img src="/images/image-product-1.jpg" alt="product preview" />
+              <img src="images/image-product-1.jpg" alt="product preview" />
               <div className="desktop__common desktop__previous">
                 <img
-                  src="/images/icon-previous.svg"
+                  src="images/icon-previous.svg"
                   alt="previous"
                   onClick={DesktopPrevHandler}
                 />
               </div>
               <div className="desktop__common desktop__next">
                 <img
-                  src="/images/icon-next.svg"
+                  src="images/icon-next.svg"
                   alt="next"
                   onClick={DesktopNextHandler}
                 />
@@ -196,7 +196,7 @@ const ImageContainer = () => {
         </div>
         <div className="desktop__main__image">
           <img
-            src="/images/image-product-1.jpg"
+            src="images/image-product-1.jpg"
             alt="product preview"
             onClick={overlayHandler}
           />
@@ -204,7 +204,7 @@ const ImageContainer = () => {
         <div className="desktop__image__subsection">
           <div className="desktop__img1 common__desktop__img">
             <img
-              src="/images/image-product-1-thumbnail.jpg"
+              src="images/image-product-1-thumbnail.jpg"
               alt="thumbnail-1"
               onClick={() => setImageDesktop(0)}
             />
@@ -212,7 +212,7 @@ const ImageContainer = () => {
           </div>
           <div className="desktop__img2 common__desktop__img">
             <img
-              src="/images/image-product-2-thumbnail.jpg"
+              src="images/image-product-2-thumbnail.jpg"
               alt="thumbnail-2"
               onClick={() => setImageDesktop(1)}
             />
@@ -220,7 +220,7 @@ const ImageContainer = () => {
           </div>
           <div className="desktop__img3 common__desktop__img">
             <img
-              src="/images/image-product-3-thumbnail.jpg"
+              src="images/image-product-3-thumbnail.jpg"
               alt="thumbnail-3"
               onClick={() => setImageDesktop(2)}
             />
@@ -228,7 +228,7 @@ const ImageContainer = () => {
           </div>
           <div className="desktop__img4 common__desktop__img">
             <img
-              src="/images/image-product-4-thumbnail.jpg"
+              src="images/image-product-4-thumbnail.jpg"
               alt="thumbnail-4"
               onClick={() => setImageDesktop(3)}
             />
